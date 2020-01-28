@@ -9,7 +9,10 @@
 import UIKit
 
 class DetailsViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var proName: UILabel!
+    @IBOutlet weak var ratingInfo: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,7 +20,6 @@ class DetailsViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
     
